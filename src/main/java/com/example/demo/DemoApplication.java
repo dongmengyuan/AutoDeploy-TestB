@@ -24,4 +24,9 @@ public class DemoApplication {
 		return "The Second Commit of TestB";
 	}
 
+	@GetMapping("/thrid")
+	public String fun2(){
+		return "The Thrid Commit of TestB";
+	}
+
 }
